@@ -14,7 +14,7 @@ The file size distribution is uniform distribution ( **X～U[min-size, max-size]
     ```ps
     .\dfgen.exe --target-size 1GB --min-size 1B --max-size 5MB E:\dummy\ -c
     ```
-    - When option -c is set, it will clear the target directory before generating dummy files. **This option must be used carefully, the clear operation cannot be undone!**
+    - When option `-c` is set, it will clear the target directory before generating dummy files. **This option must be used carefully, the clear operation cannot be undone!**
 - If the minimum size is greater than the maximum size, it will automatically swap the two values. This example has the same functionality as the previous example.
     ```ps
     .\dfgen.exe --target-size 1GB --min-size 5MB --max-size 1B E:\dummy\ -c
